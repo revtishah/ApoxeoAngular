@@ -1,0 +1,21 @@
+.middle-content{
+    padding: 80px 0 40px 0;
+}
+.content-wrapper img{
+    width: 100%;
+}
+.content-wrapper p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.common-title h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.para-content p{
+    margin: 30px 0 30px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
