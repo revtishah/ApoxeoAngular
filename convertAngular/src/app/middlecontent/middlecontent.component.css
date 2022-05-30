@@ -19,3 +19,21 @@
     font-size: 18px;
     font-weight: 600;
 }
+
+/*****************Media******************/
+
+@media screen and (max-width:767px) {
+    .middle-content{
+        padding: 30px 0 30px 0;
+    }
+    .common-title h1{
+        font-size: 28px;
+    }
+    .content-wrapper p,.para-content p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    
+}

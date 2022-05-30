@@ -41,3 +41,26 @@ hr{
     font-size: 20px;
     font-weight: 700;
 }
+
+/*****************Media******************/
+
+@media screen and (max-width:767px) {
+    .main-title h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .top-banner{
+        padding: 20px 0 20px 0;
+    }
+    .saas-title p,.author-name span{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .main-title h1{
+        font-size: 46px;
+        line-height: 65px;
+    }
+}
+
