@@ -5,6 +5,7 @@
 .header h4{
     color: #0d1224;
     text-transform: uppercase;
+    padding-left: 15px;
 }
 .main-title{
     padding-top: 25px;
@@ -37,9 +38,54 @@ hr{
     border-color: rgb(199, 199, 199);
 }
 .saas-title p{
-    margin-top: 20px;
+    margin:0;
     font-size: 20px;
     font-weight: 700;
+}
+.header,.saas-left{
+    display: flex;
+    align-items: center;
+}
+.arrow-icon i{
+    font-size: 30px;
+    color: #0d1224;
+}
+.bookmark-icon i{
+    color: #0d1224;
+    font-size: 24px;
+    padding-right: 10px
+}
+.saas-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.saas-right ul{
+    margin: 0;
+    list-style-type: none;
+}
+.saas-right ul li{
+    padding-left: 10px;
+    display: inline-block
+}
+.socialIcon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background: #0d1224;
+    justify-content: center;
+}
+.socialIcon:hover{
+    text-decoration: none;
+}
+.socialIcon i{
+    color: #fff;
+}
+.linkIcon i{
+    transform: rotate(-270deg);
 }
 
 /*****************Media******************/
@@ -55,12 +101,43 @@ hr{
     .saas-title p,.author-name span{
         font-size: 16px;
     }
+    .saas-title{
+        display: block;
+    }
+    .saas-right ul{
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .saas-right ul li{
+        padding-right: 10px;
+        padding-left: 0;
+    }
+    .bookmark-icon i{
+        font-size: 20px;
+    }
+    .author-name{
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
     .main-title h1{
         font-size: 46px;
         line-height: 65px;
+    }
+    .saas-title{
+        display: block;
+    }
+    .saas-right ul{
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .saas-right ul li{
+        padding-right: 10px;
+        padding-left: 0;
+    }
+    .bookmark-icon i{
+        font-size: 20px;
     }
 }
 

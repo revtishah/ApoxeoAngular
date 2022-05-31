@@ -31,10 +31,16 @@ hr{
     font-weight: 600;
 }
 .blog-by{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.blog-by p{
     font-size: 18px;
     color: #00c2dd;
     font-weight: 600;
-    margin: 30px 0;
+    margin: 0;
+    padding-left: 10px;
 }
 .gutterSpace{
     padding-left: 50px;
@@ -50,7 +56,7 @@ hr{
     .gutterSpace{
         padding-left: 15px;
         padding-right: 15px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     } 
     .footer-content h5{
         font-size: 16px;
@@ -64,15 +70,18 @@ hr{
         font-size: 16px;
     }
     .blog-by{
+        margin: 15px 0 0 0;
+    }
+    .blog-by p{
         font-size: 16px;
-        margin: 15px 0;
     }
     .footer-title{
         font-size: 24px;
     }
     .customMargin{
-        margin: 30px 0;
+        margin: 30px 0 0 0;
     }
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
@@ -99,8 +108,10 @@ hr{
         margin-bottom: 20px;
     }
     .blog-by{
-        font-size: 16px;
         margin: 15px 0;
+    }
+    .blog-by p{
+        font-size: 16px;
     }
     .customMargin{
         margin: 30px 0;
